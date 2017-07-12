@@ -1,0 +1,63 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  margin: 10px 0;
+}
+
+.logo {
+  color: MediumAquamarine;
+}
+
+div {
+  border: 1px solid black;
+}
+
+nav {
+}
+
+nav span {
+  display: inline-block;
+  margin: 10px;
+  align-items: center;
+}
+
+.column {
+  display: inline-flex;
+  width: 100%;
+  overflow: scroll;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.column .large {
+  width: 630px;
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+.column .medium {
+  width: 300px;
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+.column .small {
+  width: 240px;
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+.large, .medium, .small {
+  margin: 50px 35px 0 0;
+}
+
+.small img {
+  flex-basis: 240px;
+  align-items: flex-start;
+  justify-content: center;
+}
